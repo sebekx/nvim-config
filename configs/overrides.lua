@@ -30,8 +30,16 @@ M.mason = {
     "css-lsp",
     "html-lsp",
     "typescript-language-server",
+    "tailwindcss-language-server",
     "deno",
     "prettier",
+    
+    "clang-format",
+    "black",
+    "flake8",
+    "cmakelang",
+    "eslint_d",
+    "pyright",
   },
 }
 
