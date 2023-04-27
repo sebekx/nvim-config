@@ -21,7 +21,7 @@ lspconfig["clangd"].setup {
   on_attach = on_attach,
   capabilities = clang_capabilities,
   cmd = {
-    "/Users/seba/.local/share/nvim/mason/bin/clangd",
+    "clangd",
     "--background-index",
     "--clang-tidy",
     -- "--all-scopes-completion",
