@@ -31,7 +31,17 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = overrides.mason,
   },
-
+  {
+    "williamboman/mason-lspconfig.nvim",
+    dependencies = {
+      "williamboman/mason.nvim"
+    },
+    config = function()
+      require("mason-lspconfig").setup {
+        ensure_installed = {"black", "clang-format", "flake8", "pyright", "williamboman/mason.nvim", "eslint_d", "cmakelang" }
+      }
+    end,
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
