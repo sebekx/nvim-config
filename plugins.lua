@@ -5,10 +5,6 @@ local plugins = {
 
   -- Override plugin definition options
   {
-    "christoomey/vim-tmux-navigatior",
-    lazy = false,
-  },
-  {
     "neovim/nvim-lspconfig",
     dependencies = {
       -- format & linting
