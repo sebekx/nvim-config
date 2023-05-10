@@ -17,8 +17,11 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
-
   b.formatting.cmake_format,
+  
+  -- python
+  b.diagnostics.black,
+  b.diagnostics.flake8,
 }
 
 null_ls.setup {
