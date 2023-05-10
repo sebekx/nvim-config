@@ -20,7 +20,7 @@ local sources = {
   b.formatting.cmake_format,
   
   -- python
-  b.diagnostics.black,
+  b.formatting.black,
   b.diagnostics.flake8,
 }
 
