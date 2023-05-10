@@ -1,5 +1,5 @@
 vim.opt.backup = false;
-
+vim.opt.clipboard = "unnamedplus";
 -- local autocmd = vim.api.nvim_create_autocmd
 
 
