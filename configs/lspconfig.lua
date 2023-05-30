@@ -24,6 +24,7 @@ lspconfig["clangd"].setup {
     "clangd",
     "--background-index",
     "--clang-tidy",
+    "--header-insertion=never",
     -- "--all-scopes-completion",
   },
 }
